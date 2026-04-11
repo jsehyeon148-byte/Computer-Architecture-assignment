@@ -1,0 +1,146 @@
+$date
+	Sat Apr 11 19:57:19 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module if_stage_tb $end
+$var wire 32 ! instr [31:0] $end
+$var wire 32 " current_pc [31:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ rst_n $end
+$scope module uut $end
+$var wire 1 # clk $end
+$var wire 32 % current_pc [31:0] $end
+$var wire 1 $ rst_n $end
+$var wire 32 & pc_next [31:0] $end
+$var wire 32 ' pc [31:0] $end
+$var wire 32 ( instr [31:0] $end
+$scope module u_imem $end
+$var wire 32 ) rd [31:0] $end
+$var wire 32 * addr [31:0] $end
+$var parameter 32 + DEPTH $end
+$var parameter 32 , WIDTH $end
+$upscope $end
+$scope module u_pc $end
+$var wire 1 # clk $end
+$var wire 32 - pc_next [31:0] $end
+$var wire 1 $ rst_n $end
+$var reg 32 . pc [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100000 ,
+b100000000 +
+$end
+#0
+$dumpvars
+b0 .
+b100 -
+b0 *
+b100000000010000000000000000111 )
+b100000000010000000000000000111 (
+b0 '
+b100 &
+b0 %
+0$
+0#
+b0 "
+b100000000010000000000000000111 !
+$end
+#5000
+1#
+#10000
+0#
+1$
+#15000
+b100000000010010000000000000011 !
+b100000000010010000000000000011 (
+b100000000010010000000000000011 )
+b1000 &
+b1000 -
+b100 "
+b100 %
+b100 '
+b100 *
+b100 .
+1#
+#20000
+0#
+#25000
+b1000010010101000000100010 !
+b1000010010101000000100010 (
+b1000010010101000000100010 )
+b1100 &
+b1100 -
+b1000 "
+b1000 %
+b1000 '
+b1000 *
+b1000 .
+1#
+#30000
+0#
+#35000
+bx !
+bx (
+bx )
+b10000 &
+b10000 -
+b1100 "
+b1100 %
+b1100 '
+b1100 *
+b1100 .
+1#
+#40000
+0#
+#45000
+b10100 &
+b10100 -
+b10000 "
+b10000 %
+b10000 '
+b10000 *
+b10000 .
+1#
+#50000
+0#
+#55000
+b11000 &
+b11000 -
+b10100 "
+b10100 %
+b10100 '
+b10100 *
+b10100 .
+1#
+#60000
+0#
+#65000
+b11100 &
+b11100 -
+b11000 "
+b11000 %
+b11000 '
+b11000 *
+b11000 .
+1#
+#70000
+0#
+#75000
+b100000 &
+b100000 -
+b11100 "
+b11100 %
+b11100 '
+b11100 *
+b11100 .
+1#
+#76000
